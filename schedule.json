@@ -1,0 +1,63 @@
+{
+  "today": {
+    "date": "Friday, December 6",
+    "events": [{
+      "name"    : "Msza Św."
+    , "times": [{
+        "time"    : "6am"
+      , "language": "pl"
+      }, {
+        "time"    : "7am"
+      , "language": "pl"
+      }, {
+        "time"    : "9am"
+      , "language": "en"
+      }, {
+        "time"    : "12pm"
+      , "language": "es"
+      }]
+    },{
+      "name"    : "Adoracja do Najświętszego Sakramentu"
+    , "times": [{
+        "time"    : "6am - 9pm w kaplicy"
+      }]
+    }]
+  }
+, "tomorrow": {
+    "date": "Saturday, December 7",
+    "events": [{
+      "name"    : "Msza Św."
+    , "times": [{
+        "time"    : "6am"
+      , "language": "pl"
+      }, {
+        "time"    : "7am"
+      , "language": "pl"
+      }, {
+        "time"    : "9am"
+      , "language": "en"
+      }, {
+        "time"    : "12pm"
+      , "language": "es"
+      }]
+    },{
+      "name"    : "Spowiedź Św."
+    , "times": [{
+        "time"    : "6:45am"
+      , "language": "pl"
+      }, {
+        "time"    : "11am"
+      , "language": "en"
+      }, {
+        "time"    : "4:30pm"
+      , "language": "pl"
+      }]
+    },{
+      "name"    : "Rekolekcje"
+    , "times": [{
+        "time"    : "8am - 9pm"
+      , "language": "pl"
+      }]
+    }]
+  }
+}

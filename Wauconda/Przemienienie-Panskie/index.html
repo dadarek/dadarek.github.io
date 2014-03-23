@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Przemienienie Pańskie - Wauconda, IL | Rozkład Mszy Świętych</title>
+
+  <meta name="description" content="Rozkład Mszy Świętych Przemienienie Pańskie, Wauconda, IL" />
+  <meta name="keywords" content="Rozkład Mszy Świętych,Godziny Mszy Świętych,Katolicki Koscioł w Chicago,Przemienienie Pańskie" />
+
+  <link href="/stylesheets/foundation.css?1394307356" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/main.css?1394307357" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/app.css?1394307356" media="screen" rel="stylesheet" type="text/css" />
+
+
+  <script src="/javascripts/jquery.js?1395454632" type="text/javascript"></script>
+  <script src="/javascripts/modernizr.foundation.js?1395454630" type="text/javascript"></script>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300normal,300italic,700normal|Open+Sans:400normal|Abel:400normal|Oswald:400normal|BenchNine:400normal|Unica+One:400normal|PT+Sans+Narrow:400normal|Droid+Sans:400normal|Droid+Serif:400normal|Cuprum:400normal|Ubuntu+Condensed:400normal&amp;subset=all" rel="stylesheet" type="text/css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19742245-4']);
+      _gaq.push(['_trackPageview']);
+      _gaq.push(['_trackEvent', 'Site Version', '2.0']);
+
+      (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+      window.onerror = function(message, file, line) {
+        _gaq.push(['_trackEvent', 'JS Error', file + ':' + line + '\n\n' + message]);
+      };
+  </script>
+
+</head>
+<body>
+  <div class='twelve columns header_nav'>
+  <div class='row'>
+    <ul class='nav-bar horizontal' id='menu-header'>
+      <li>
+        <a href='/chicago-polnoc/'>Chicago Północ</a>
+      </li>
+      <li>
+        <a href='/chicago-poludnie/'>Chicago Południe</a>
+      </li>
+      <li class='active'>
+        <a href='/przedmiescia/'>Przedmieścia</a>
+      </li>
+      <li>
+        <a href='/chicago-centrum/'>Chicago Centrum</a>
+      </li>
+      <li class='other-language'>
+        <a href='/Wauconda/Transfiguration-Parish/'><img alt="English Version" title="English Version" src="/images/en.jpg?1394307349" /></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+  <script src="/javascripts/ChurchCalendar.js?1395454628" type="text/javascript"></script>
+<script src="/javascripts/EventFetcher.js?1395454629" type="text/javascript"></script>
+<script src="/javascripts/lib/EventParser.js?1395454631" type="text/javascript"></script>
+<script src="/javascripts/lib/Interpreter.js?1395454630" type="text/javascript"></script>
+<script>
+  (function() {
+    $(function() {
+      var calendar, calendarId, events, fetcher;
+      $('#todayTab').text('');
+      calendarId = "suml21ktt5qb7h4mvd8b14f2gg@group.calendar.google.com";
+      fetcher = new EventFetcher(calendarId, Interpreter);
+      calendar = new ChurchCalendar(I18n, Interpreter);
+      return events = fetcher.fetch(function(events) {
+        return calendar.populate(events);
+      });
+    });
+  
+  }).call(this);
+</script>
+<script id='eventTemplate' type='text/html'>
+  <h6>{{date}}</h6>
+  <ul class="events">
+  {{#events}}
+    <li>
+      {{#times.length}}
+        <div class="date_header">{{name}}</div>
+        <ul>
+          {{#times}}
+            <li class="{{language}}">{{time}}</li>
+          {{/times}}
+        </ul>
+      {{/times.length}}
+      {{^times}}
+        <div class="date_header"><em>{{eventMissing}}</em></div>
+      {{/times}}
+    </li>
+  {{/events}}
+  </ul>
+</script>
+<header>
+  <div class='row'>
+    <h1 class='welcome_text'>Przemienienie Pańskie</h1>
+    <p class='excerpt church-address'>316 W. Mill St.</p>
+    <p class='excerpt church-address'>Wauconda, IL 60084</p>
+    <p class='excerpt church-address'>(847) 526-2400</p>
+    <p class='excerpt church-address'>
+      <a href='http://www.transfigurationwauconda.com/'>http://www.transfigurationwauconda.com/</a>
+    </p>
+  </div>
+</header>
+<section class='section_light'>
+  <div class='row'>
+    <div class='six columns'>
+      <img alt="Przemienienie Pańskie" src="/UserContent/Church-Full-Size/przemienienie-panskie-wauconda.jpg?1395586338" />
+    </div>
+    <div class='six columns'>
+      <dl class='tabs three-up' id='date-tabs'>
+        <dd class='active'>
+          <a href='#today'>
+            Dzisiaj
+          </a>
+        </dd>
+        <dd>
+          <a href='#tomorrow'>
+            Jutro
+          </a>
+        </dd>
+        <dd>
+          <a href='#sevenDays'>
+            Kolejne 7 dni
+          </a>
+        </dd>
+      </dl>
+      <ul class='tabs-content'>
+        <li class='active' id='todayTab'>
+          JavaScript musi być włączony aby oglądać kalendarz.
+        </li>
+        <li id='tomorrowTab'></li>
+        <li id='sevenDaysTab'>
+          <div id='eventsForDay1'></div>
+          <div id='eventsForDay2'></div>
+          <div id='eventsForDay3'></div>
+          <div id='eventsForDay4'></div>
+          <div id='eventsForDay5'></div>
+          <div id='eventsForDay6'></div>
+          <div id='eventsForDay7'></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <footer>
+  <div class='row'>
+    <div class='twelve columns footer'>
+      <a href='/kontakt/Wauconda/Przemienienie-Panskie/'>Kontakt</a>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/javascripts/foundation.min.js?1394307350" type="text/javascript"></script>
+  <script src="/javascripts/app.js?1395454628" type="text/javascript"></script>
+  <script src="/javascripts/mustache.js?1395454629" type="text/javascript"></script>
+  <script src="/javascripts/underscore-1.5.2.js?1395454629" type="text/javascript"></script>
+  <script src="/javascripts/moment.min.js?1394307350" type="text/javascript"></script>
+
+  <script src="/javascripts/i18n/Pl.js?1395454635" type="text/javascript"></script>
+
+</body>
+</html>

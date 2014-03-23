@@ -1,0 +1,1 @@
+!function(n){"use strict";n.fn.foundationAccordion=function(){n(".accordion li",this).on("click.fndtn",function(){var t=n(this).parent(),i=n(this).children(".content").first();n(".content",t).not(i).hide().parent("li").removeClass("active"),i.show(0,function(){i.parent("li").addClass("active")})})}}(jQuery,this);
