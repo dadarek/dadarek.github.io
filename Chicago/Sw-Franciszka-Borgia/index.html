@@ -32,7 +32,7 @@
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-19742245-4']);
       _gaq.push(['_trackPageview']);
-      _gaq.push(['_trackEvent', 'Site Version', '2.1.1']);
+      _gaq.push(['_trackEvent', 'Site Version', '2.1.2']);
 
       (function () {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -72,7 +72,7 @@
 
   <script src="/javascripts/ChurchCalendar.js?1396964802" type="text/javascript"></script>
 <script src="/javascripts/EventFetcher.js?1396999455" type="text/javascript"></script>
-<script src="/javascripts/lib/EventParser.js?1396998521" type="text/javascript"></script>
+<script src="/javascripts/lib/EventParser.js?1397135618" type="text/javascript"></script>
 <script src="/javascripts/lib/Interpreter.js?1396998521" type="text/javascript"></script>
 <script>
   (function() {
@@ -98,7 +98,12 @@
         <div class="date_header">{{name}}</div>
         <ul>
           {{#times}}
-            <li class="{{language}}">{{time}}</li>
+            {{#end}}
+              <li class="{{language}}">{{start}}-{{end}}</li>
+            {{/end}}
+            {{^end}}
+              <li class="{{language}}">{{start}}</li>
+            {{/end}}
           {{/times}}
         </ul>
       {{/times.length}}
@@ -116,7 +121,7 @@
     <p class='excerpt church-address'>Chicago, IL 60634</p>
     <p class='excerpt church-address'>(773) 625-1118</p>
     <p class='excerpt church-address'>
-      <a href='http://www.stfrancisborgiachicago.org'>www.stfrancisborgiachicago.org</a>
+      <a href='http://www.saintfrancisborgiachicago.com/'>www.saintfrancisborgiachicago.com/</a>
     </p>
   </div>
 </header>
