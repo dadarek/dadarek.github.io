@@ -15,7 +15,7 @@
   <meta name="keywords" content="Catholic Holy Mass Schedule,Catholic Holy Mass Hours,Catholic Mass Times,Catholic Church in Chicago,St. Joseph" />
 
   <link href="/stylesheets/foundation.css?1394307356" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/main.css?1394307357" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/main.css?1397171991" media="screen" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/app.css?1394307356" media="screen" rel="stylesheet" type="text/css" />
 
 
@@ -32,7 +32,7 @@
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-19742245-4']);
       _gaq.push(['_trackPageview']);
-      _gaq.push(['_trackEvent', 'Site Version', '2.1.2']);
+      _gaq.push(['_trackEvent', 'Site Version', '2.1.3']);
 
       (function () {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -70,15 +70,15 @@
 </div>
 
 
-  <script src="/javascripts/ChurchCalendar.js?1396964802" type="text/javascript"></script>
-<script src="/javascripts/EventFetcher.js?1396999455" type="text/javascript"></script>
+  <script src="/javascripts/ChurchCalendar.js?1397171586" type="text/javascript"></script>
+<script src="/javascripts/EventFetcher.js?1397171587" type="text/javascript"></script>
 <script src="/javascripts/lib/EventParser.js?1397135618" type="text/javascript"></script>
-<script src="/javascripts/lib/Interpreter.js?1396998521" type="text/javascript"></script>
+<script src="/javascripts/lib/Interpreter.js?1397171588" type="text/javascript"></script>
 <script>
   (function() {
     $(function() {
       var calendar, calendarId, events, fetcher;
-      $('#todayTab').text('');
+      $('#eventsForDay0').text('');
       calendarId = "412en1qq517ckmfftlv4pnfc0s@group.calendar.google.com";
       fetcher = new EventFetcher(calendarId, Interpreter);
       calendar = new ChurchCalendar(I18n, Interpreter);
@@ -90,7 +90,7 @@
   }).call(this);
 </script>
 <script id='eventTemplate' type='text/html'>
-  <h6>{{date}}</h6>
+  <h3 class="schedule-header">{{date}}</h6>
   <ul class="events">
   {{#events}}
     <li>
@@ -117,49 +117,70 @@
 <header>
   <div class='row'>
     <h1 class='welcome_text'>St. Joseph</h1>
-    <p class='excerpt church-address'>4821 S. Hermitage.</p>
-    <p class='excerpt church-address'>Chicago, IL 60609</p>
-    <p class='excerpt church-address'>(773) 254-2366</p>
   </div>
 </header>
 <section class='section_light'>
   <div class='row'>
     <div class='six columns'>
-      <img alt="St. Joseph" src="/UserContent/Church-Full-Size/parafia-swietego-jozefa-chicago.jpg?1395586338" />
+      <div class='row'>
+        <div class='twelve columns'>
+          <img alt="St. Joseph" src="/UserContent/Church-Full-Size/parafia-swietego-jozefa-chicago.jpg?1395586338" />
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <h5>St. Joseph</h5>
+          <p>
+            4821 S. Hermitage.
+            <br>
+            Chicago, IL 60609
+            <br>
+            (773) 254-2366
+          </p>
+        </div>
+      </div>
     </div>
     <div class='six columns'>
-      <dl class='tabs three-up' id='date-tabs'>
-        <dd class='active'>
-          <a href='#today'>
-            Today
-          </a>
-        </dd>
-        <dd>
-          <a href='#tomorrow'>
-            Tomorrow
-          </a>
-        </dd>
-        <dd>
-          <a href='#sevenDays'>
-            Next 7 Days
-          </a>
-        </dd>
-      </dl>
-      <ul class='tabs-content'>
-        <li class='active' id='todayTab'>
-          You must enable javascript in order to view the schedule.
-        </li>
-        <li id='tomorrowTab'></li>
-        <li id='sevenDaysTab'>
-          <div id='eventsForDay1'></div>
-          <div id='eventsForDay2'></div>
-          <div id='eventsForDay3'></div>
-          <div id='eventsForDay4'></div>
-          <div id='eventsForDay5'></div>
-          <div id='eventsForDay6'></div>
-          <div id='eventsForDay7'></div>
-        </li>
-      </ul>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay0'>You must enable javascript in order to view the schedule.</div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay1'></div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay2'></div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay3'></div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay4'></div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay5'></div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay6'></div>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='twelve columns'>
+          <div class='schedule' id='eventsForDay7'></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
