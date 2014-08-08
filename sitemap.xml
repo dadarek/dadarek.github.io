@@ -61,6 +61,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.mszaswieta.com/Chicago/Sw-William/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.mszaswieta.com/Chicago/Sw-Matki-Boskiej-Anielskiej/</loc>
     <priority>1.0</priority>
   </url>
@@ -270,6 +274,10 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Chicago/St-Constance/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/St-William/</loc>
     <priority>1.0</priority>
   </url>
   <url>
