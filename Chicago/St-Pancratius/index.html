@@ -32,7 +32,7 @@
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-19742245-4']);
       _gaq.push(['_trackPageview']);
-      _gaq.push(['_trackEvent', 'Site Version', '2.5']);
+      _gaq.push(['_trackEvent', 'Site Version', '3.0.0']);
 
       (function () {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -66,51 +66,7 @@
 </div>
 
 
-  <script src="/javascripts/ChurchCalendar-349358df.js" type="text/javascript"></script>
-<script src="/javascripts/EventFetcher-30811062.js" type="text/javascript"></script>
-<script src="/javascripts/lib/EventParser-b4165c70.js" type="text/javascript"></script>
-<script src="/javascripts/lib/EventPresenter-faa15358.js" type="text/javascript"></script>
-<script src="/javascripts/lib/Interpreter-70b90a7b.js" type="text/javascript"></script>
-<script>
-  (function() {
-    $(function() {
-      var calendar, calendarId, events, fetcher;
-      calendarId = "oc12m1rl7hsmgth64v8u4l8nd8@group.calendar.google.com";
-      fetcher = new EventFetcher(calendarId, Interpreter);
-      calendar = new ChurchCalendar(I18n, Interpreter);
-      return events = fetcher.fetch(function(events) {
-        return calendar.populate(events);
-      });
-    });
-  
-  }).call(this);
-</script>
-<script id='eventTemplate' type='text/html'>
-  <h3 class="schedule-header">{{date}}</h6>
-  <ul class="events">
-  {{#events}}
-    <li>
-      {{#times.length}}
-        <div class="date_header">{{name}}</div>
-        <ul>
-          {{#times}}
-            {{#end}}
-              <li class="{{language}}">{{start}}-{{end}}</li>
-            {{/end}}
-            {{^end}}
-              <li class="{{language}}">{{start}}</li>
-            {{/end}}
-          {{/times}}
-        </ul>
-      {{/times.length}}
-      {{^times}}
-        <div class="date_header"><em>{{eventMissing}}</em></div>
-      {{/times}}
-    </li>
-  {{/events}}
-  </ul>
-</script>
-<header>
+  <header>
   <div class='row'>
     <h1 class='welcome_text'>St. Pancratius</h1>
   </div>
@@ -136,48 +92,6 @@
         </div>
       </div>
     </div>
-    <div class='six columns'>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay0'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay1'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay2'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay3'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay4'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay5'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay6'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='twelve columns'>
-          <div class='schedule' id='eventsForDay7'></div>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -196,9 +110,6 @@
   <script src="/javascripts/vendor/underscore-1.5.2.js" type="text/javascript"></script>
   <script src="/javascripts/vendor/underscore.string.min.js" type="text/javascript"></script>
   <script src="/javascripts/vendor/moment.min.js" type="text/javascript"></script>
-
-  <script src="/javascripts/vendor/iso-date.js" type="text/javascript"></script>
-  <script src="/javascripts/i18n/en-9edec131.js" type="text/javascript"></script>
 
 </body>
 </html>
