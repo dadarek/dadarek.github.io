@@ -32,17 +32,12 @@
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-19742245-4']);
       _gaq.push(['_trackPageview']);
-      _gaq.push(['_trackEvent', 'Site Version', '4.0.1']);
 
       (function () {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
-      window.onerror = function(message, file, line) {
-        _gaq.push(['_trackEvent', 'JS Error', file + ':' + line + '\n\n' + message]);
-      };
   </script>
 </head>
 <body>
@@ -79,7 +74,7 @@
       <form action='/send-contact/' method='post'>
         <input name='referer' type='hidden' value='St. Joseph the Worker'>
         <input name='thank_you_page' type='hidden' value='/thank_you/'>
-        <input name='site_version' type='hidden' value='4.0.1'>
+        <input name='site_version' type='hidden'>
         <label>Your Name</label>
         <input name='name' type='text'>
         <label>Your Email or Phone Number</label>
