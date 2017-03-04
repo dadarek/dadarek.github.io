@@ -165,6 +165,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.mszaswieta.com/Niles/Sw-Isaac-Jogues/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.mszaswieta.com/Wauconda/Przemienienie-Panskie/</loc>
     <priority>1.0</priority>
   </url>
@@ -378,6 +382,10 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Burbank/St-Albert-the-Great/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Niles/St-Isaac-Jogues/</loc>
     <priority>1.0</priority>
   </url>
   <url>
