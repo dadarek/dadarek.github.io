@@ -33,11 +33,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/Bazylika-Sw-Jacka/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Chicago/Jezuicki-Osrodek-Milenijny-w-Chicago/</loc>
+    <loc>http://www.mszaswieta.com/Chicago/Sw-Franciszka-Borgia/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -45,7 +41,27 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/Sw-Franciszka-Borgia/</loc>
+    <loc>http://www.mszaswieta.com/Chicago/Jezuicki-Osrodek-Milenijny-w-Chicago/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/Sw-Konstancji/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Harwood-Heights/Sw-Rozalia/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/Sw-Moniki/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/Sw-Wladyslawa/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/Bazylika-Sw-Jacka/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -54,10 +70,6 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Chicago/Sw-Jakuba-Apostola/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Chicago/Sw-Konstancji/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -73,19 +85,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/Sw-Moniki/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>http://www.mszaswieta.com/Chicago/Sw-Paskala/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Chicago/Sw-Pryscyli/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Harwood-Heights/Sw-Rozalia/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -105,7 +109,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/Sw-Wladyslawa/</loc>
+    <loc>http://www.mszaswieta.com/Burbank/Sw-Alberta-Wielkiego/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -161,7 +165,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Burbank/Sw-Alberta-Wielkiego/</loc>
+    <loc>http://www.mszaswieta.com/Bridgeview/Sw-Fabiana/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -173,15 +177,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Calumet-City/Sw-Andrzeja-Apostola/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>http://www.mszaswieta.com/Lemont/Sw-Cyryla-i-Metodego/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Bridgeview/Sw-Fabiana/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -241,6 +237,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.mszaswieta.com/Calumet-City/Sw-Andrzeja-Apostola/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.mszaswieta.com/Chicago/Sw-Heleny/</loc>
     <priority>1.0</priority>
   </url>
@@ -253,11 +253,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/St-Hyacinth-Basilica/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Chicago/Sacred-Heart-Mission-House-Jesuits-Irving-Park/</loc>
+    <loc>http://www.mszaswieta.com/Chicago/St-Francis-Borgia/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -265,7 +261,27 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/St-Francis-Borgia/</loc>
+    <loc>http://www.mszaswieta.com/Chicago/Sacred-Heart-Mission-House-Jesuits-Irving-Park/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/St-Constance/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Harwood-Heights/St-Rosalie/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/St-Monica/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/St-Ladislaus/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Chicago/St-Hyacinth-Basilica/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -274,10 +290,6 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Chicago/St-James-the-Apostle/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Chicago/St-Constance/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -293,19 +305,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/St-Monica/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>http://www.mszaswieta.com/Chicago/St-Pascal/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Chicago/St-Priscilla/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Harwood-Heights/St-Rosalie/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -325,7 +329,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Chicago/St-Ladislaus/</loc>
+    <loc>http://www.mszaswieta.com/Burbank/St-Albert-the-Great/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -381,7 +385,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Burbank/St-Albert-the-Great/</loc>
+    <loc>http://www.mszaswieta.com/Bridgeview/St-Fabian/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -393,15 +397,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Calumet-City/St-Andrew-the-Apostle/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>http://www.mszaswieta.com/Lemont/St-Cyril-and-Methodius/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mszaswieta.com/Bridgeview/St-Fabian/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -458,6 +454,10 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Des-Plaines/St-Zachary/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Calumet-City/St-Andrew-the-Apostle/</loc>
     <priority>1.0</priority>
   </url>
   <url>
