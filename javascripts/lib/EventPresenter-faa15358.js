@@ -1,1 +1,0 @@
-!function(){var n,t,e;t=function(n){return n?moment(n,"hh:mm").format("h:mm A"):void 0},e=function(n){return{start:t(n.start),end:t(n.end),language:n.language}},n=function(n){return{name:n.name,eventMissing:n.eventMissing,times:_.map(n.times,e)}},window.EventPresenter=function(){function t(){}return t.present=function(t){return _.map(t,n)},t}()}.call(this);

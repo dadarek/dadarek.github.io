@@ -1,1 +1,0 @@
-!function(){window.I18n=function(){function n(){}return n.mass="Mass",n.reconciliation="Reconciliation",n.noMasses="No masses scheduled",n.noReconciliations="No reconciliations scheduled",n.formatDate=function(n){return moment(n).format("dddd, MMMM Do")},n}()}.call(this);
