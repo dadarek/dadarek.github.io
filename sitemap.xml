@@ -189,10 +189,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Harvey/Sw-Jana-Chrzciciela/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>http://www.mszaswieta.com/Streamwood/Sw-Jana-Ewangelisty/</loc>
     <priority>1.0</priority>
   </url>
@@ -238,6 +234,10 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Calumet-City/Sw-Andrzeja-Apostola/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Harvey/Sw-Jana-Chrzciciela/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -409,10 +409,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mszaswieta.com/Harvey/St-John-Baptist/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>http://www.mszaswieta.com/Streamwood/St-John-the-Evangelist/</loc>
     <priority>1.0</priority>
   </url>
@@ -458,6 +454,10 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Calumet-City/St-Andrew-the-Apostle/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Harvey/St-John-Baptist/</loc>
     <priority>1.0</priority>
   </url>
   <url>
