@@ -177,6 +177,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.mszaswieta.com/Des-Plaines/Swietej-Maryi/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.mszaswieta.com/Lemont/Sw-Cyryla-i-Metodego/</loc>
     <priority>1.0</priority>
   </url>
@@ -394,6 +398,10 @@
   </url>
   <url>
     <loc>http://www.mszaswieta.com/Wauconda/Transfiguration-Parish/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mszaswieta.com/Des-Plaines/St-Mary-Catholic-Church/</loc>
     <priority>1.0</priority>
   </url>
   <url>
